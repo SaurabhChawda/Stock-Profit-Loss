@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
+body{
+    font-family: 'Koh Santepheap', cursive;
+    background-color:darkseagreen;
+    
+}
+.container{
+    display: block;
+    max-width:600px;
+    margin: 2rem auto;
+    width:min-content;
+    border-style:solid;
+    border-radius: 1rem;
+    padding:3rem 3rem;
+}
+.heading{
+    margin:0 auto;
+    text-align:center;
+    background-color:white;
+    padding:1rem 1rem
+}
+
+label{
+    font-size: larger;
+    font-weight: 900;
+
+}
+input{
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    margin:0.4rem;
+    
+}
+button{
+    text-align: center;
+    background-color:black;
+    color:white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    
+}
+
+Output{
+  background-color: white;
+
+}

@@ -10,7 +10,7 @@ function submitHandler(){
   var Initial = initialPrice.value;
   var Quantity = Quantitystocks.value;
   var current = currentPrice.value;
-
+ if(Initial>0 && Quantity>0 && current>0){
    var Initialvalue=Initial*Quantity;
    var currentvalue=current*Quantity;
 
@@ -35,7 +35,10 @@ function submitHandler(){
       else{
         showOutput(`Please Buy Stocks First!!`);
       }
+    }else{
+      showOutput(`Please Enter valid Value`);
     }
+  }
     function showOutput(message) {
       outputBox.innerHTML = message;
     }
